@@ -1,11 +1,11 @@
-@echo off
+Ôªø@echo off
 rem ------ Real Code Start --------------------------------------------------------------
 rem ------ Code Runnable Start ----------------------------------------------------------
 
 rem ------ Caution:Root User Only -------------------------------------------------------
 rem ------ Ask user to run --------------------------------------------------------------
 echo "You're losing some Network setting!!" 
-set /P ANSWER="Are you sure ? (Y/N)ÅH"
+set /P ANSWER="Are you sure ? (Y/N)"
 rem ------ Requesting Green light -------------------------------------------------------
 if /i {%ANSWER%}=={y} (goto :yes)
 if /i {%ANSWER%}=={yes} (goto :yes)
